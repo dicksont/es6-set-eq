@@ -1,0 +1,31 @@
+{
+  "name": "es6-set-eq",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dicksont/es6-set-eq",
+  "authors": [
+    "Dickson Tam <dicksont650@gmail.com>"
+  ],
+  "description": "Equals function for ES6 sets",
+  "main": "seteq.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "set",
+    "equal",
+    "equals",
+    "equality",
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
