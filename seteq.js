@@ -27,8 +27,14 @@
 (function(root) {
 
   function setEq(a, b) {
+
+
     if (a == b) return true;
     if (!a || !b) return false;
+
+    if (!(a instanceof Set) || (!b instanceof Set))
+      throw new Error('Set comparision attempted with a non-set');
+
 
     for (var e of a) {
       if (!b.has(e)) {
