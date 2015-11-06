@@ -1,0 +1,29 @@
+{
+  "name": "es6-set-eq",
+  "version": "0.0.1",
+  "description": "Equals function for ES6 sets",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test_equality.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dicksont/es6-set-eq.git"
+  },
+  "keywords": [
+    "set",
+    "equal",
+    "equals",
+    "equality",
+    "es6"
+  ],
+  "author": "Dickson Tam <dicksont650@gmail.com> (http://dicksont.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dicksont/es6-set-eq/issues"
+  },
+  "homepage": "https://github.com/dicksont/es6-set-eq#readme"
+}
