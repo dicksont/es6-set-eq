@@ -25,7 +25,7 @@
  */
 
 var assert = require('assert');
-var setEq = require('../index.js');
+var setEq = require('../seteq.js');
 
 assert.ok(!setEq(new Set([1,2]), new Set([1])));
 assert.ok(setEq(new Set([1]), new Set([1])));
