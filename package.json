@@ -2,7 +2,7 @@
   "name": "es6-set-eq",
   "version": "0.0.1",
   "description": "Equals function for ES6 sets",
-  "main": "index.js",
+  "main": "seteq.js",
   "directories": {
     "test": "test"
   },
