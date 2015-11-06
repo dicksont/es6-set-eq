@@ -1,9 +1,10 @@
-## Introduction
+## Background
 
-Whatever happened to the equals method in ES6 sets. Well, until they show up,
-you can use this package as a filler. Here's how to use:
+Whatever happened to the equals method in ES6 sets? Well, until it shows up,
+you can use this package as a filler.
 
 ## Usage
+Here's how to use:
 
 ### NPM + Node
 
@@ -24,7 +25,7 @@ console.log(setEq(new Set([1]), new Set([1])); // true
 ```html
 <script src="/bower_components/es6-set-eq/seteq.js"></script>
 <script>
-    console.log(setEq(new Set([1]), new Set([1]))); // true 
+    console.log(setEq(new Set([1]), new Set([1]))); // true
 </script>
 
 
