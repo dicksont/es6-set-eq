@@ -31,7 +31,7 @@ console.log(setEq(new Set([1]), new Set([1])); // true
 
 ```
 
-### License
+## License
 
 The MIT License (MIT)
 
