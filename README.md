@@ -1,6 +1,6 @@
 ## Background
 
-Whatever happened to the equals method in ES6 sets? Well, until it shows up,
+Whatever happened to the equals method for ES6 sets? Well, until it shows up,
 you can use this package as a filler.
 
 ## Usage
