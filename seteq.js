@@ -33,7 +33,7 @@
     if (!a || !b) return false;
 
     if (!(a instanceof Set) || (!b instanceof Set))
-      throw new Error('Set comparision attempted with a non-set');
+      throw new Error('Set comparison attempted with a non-set');
 
 
     for (var e of a) {
