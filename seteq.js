@@ -32,7 +32,7 @@
     if (a == b) return true;
     if (!a || !b) return false;
 
-    if (!(a instanceof Set) || (!b instanceof Set))
+    if (!(a instanceof Set) || !(b instanceof Set))
       throw new Error('Set comparision attempted with a non-set');
 
     if(a.size !== b.size) return false;
