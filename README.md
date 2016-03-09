@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/dicksont/es6-set-eq.svg?branch=master)](https://travis-ci.org/dicksont/es6-set-eq)
+
+
 ## Background
 
 Whatever happened to the equals method for ES6 sets? Well, until it shows up,
