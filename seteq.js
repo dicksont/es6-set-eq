@@ -35,6 +35,7 @@
     if (!(a instanceof Set) || (!b instanceof Set))
       throw new Error('Set comparision attempted with a non-set');
 
+    if(a.size !== b.size) return false;
 
     for (var e of a) {
       if (!b.has(e)) {
